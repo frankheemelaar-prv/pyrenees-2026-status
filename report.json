@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-07-25T12:57:33Z",
+  "checkType": "day-before-move",
+  "overallStatus": "ORANJE",
+  "summary": "Eerste check (geen eerdere rapportdata om te dedupliceren). Deze check draait op 25 juli, ruim vóór de eigenlijke avondcheck van 7 augustus 2026 - zie voorbehoud bij nextCheck; filedata en Bison Fute-cijfers moeten dan opnieuw worden gecontroleerd. Geen incidenten die de route Gouda-Normandie blokkeren, maar 8 augustus 2026 is landelijk een Bison Fute ROOD-dag (beide richtingen), dus vertraging rond ringwegen en de westkust is waarschijnlijk.",
+  "segments": [
+    {
+      "label": "Gouda - Belgische grens (NL binnenland, A16/A27/A17)",
+      "status": "GROEN",
+      "development": "Geen gemelde langdurige afsluitingen op dit traject voor begin augustus; eerdere afsluiting A27 Everdingen-Gorinchem eindigde al 3 augustus.",
+      "possibleEffect": "Beperkt: mogelijk lokale ochtenddrukte rond Rotterdam/Antwerpse grensregio.",
+      "action": "Voor vertrek kort Rijkswaterstaat/ANWB actuele filecheck doen."
+    },
+    {
+      "label": "Grens - Rijsel/Noord-Frankrijk (via Antwerpen/Brussel of Gent/Kortrijk)",
+      "status": "ORANJE",
+      "development": "8 augustus is een zaterdag in de drukste Franse vakantieweek; Bison Fute classificeert deze dag ROOD in zowel vertrek- als terugkeerrichting, met extra drukte richting de Atlantische kust en rond Parijse ringwegen (niet op onze route, maar indicatief voor algemene drukte).",
+      "possibleEffect": "Vertraging op ringwegen Antwerpen/Brussel of Gent, vooral in de ochtend- en vroege middagspits.",
+      "action": "Vroeg vertrekken (06:00-07:00) en vlak voor vertrek actuele filedata checken; overweeg fallback via Gent-Kortrijk als ring Antwerpen/Brussel vastloopt."
+    },
+    {
+      "label": "Noord-Frankrijk - Normandie (A16(F)/A29 Pont de Normandie/A13 naar Bayeux-omgeving)",
+      "status": "ORANJE",
+      "development": "Landelijke Bison Fute ROOD-classificatie voor 8 augustus verhoogt kans op file richting westkust; daarnaast lopende werkzaamheden bij Quetteville (A13/A29-knooppunt) met tijdelijke rijstroken en snelheidslimiet 30 km/u (beperkte hinder, geen afsluiting).",
+      "possibleEffect": "Langere reistijd dan gemiddeld, met name tussen 10:00-16:00 lokale tijd; check-in bij accommodatie is pas 15:00 dus enige buffer aanwezig.",
+      "action": "Ruim voor het middaguur dit traject proberen te passeren; tolgeld (Pont de Normandie, A13/A29) gereed houden."
+    }
+  ],
+  "incidents": [
+    {
+      "location": "Heel Frankrijk (snelwegennet), met nadruk op Atlantische kust en Parijse ring (A6/A10)",
+      "distanceDescription": "Betreft het hele traject in Frankrijk, inclusief onze route naar Normandie",
+      "officialStatus": "Bison Fute: zaterdag 8 augustus 2026 geclassificeerd als ROOD in zowel vertrek- als terugkeerrichting",
+      "lastUpdate": "Bison Fute jaarkalender 2026, geraadpleegd 25 juli 2026",
+      "expectedDevelopment": "Verwacht drukste weekend van de zomer (grand chasse-croise periode); geen wijziging verwacht tussen nu en 8 augustus, tenzij Bison Fute de prognose bijstelt.",
+      "source": "Bison Fute (via samenvattende bronnen vacances-scolaires.com en Cnews, directe toegang tot bison-fute.gouv.fr gaf een verbindingsfout)",
+      "sourceUrl": "https://www.bison-fute.gouv.fr/calendrier-bison-fute,10739.html",
+      "confidence": "middel"
+    },
+    {
+      "location": "Quetteville, knooppunt A13/A29 (richting Caen/Deauville)",
+      "distanceDescription": "Op de hoofdroute tussen Le Havre-omgeving en Caen, dicht bij eindbestemming Saint-Come-de-Fresne",
+      "officialStatus": "Werkzaamheden gaande, verkeer op tijdelijke rijstroken, snelheid beperkt tot 30 km/u",
+      "lastUpdate": "Recente wegwerkinformatie, exacte einddatum niet bevestigd",
+      "expectedDevelopment": "Vermoedelijk doorlopend tot in augustus; geen volledige afsluiting gemeld.",
+      "source": "Wegwerkinformatie A13/A29 (secundaire bron, niet rechtstreeks bij Bison Fute geverifieerd)",
+      "sourceUrl": null,
+      "confidence": "laag"
+    }
+  ],
+  "actionsToday": [
+    "Geen actie vereist op 25 juli; dit is een vroege testrun van de avondcheck.",
+    "Herhaal deze check op de daadwerkelijke avond van 7 augustus 2026 voor actuele Bison Fute-, weer- en filedata.",
+    "Plan vertrek op 8 augustus rond 06:00-07:00 vanwege de landelijke Bison Fute ROOD-classificatie.",
+    "Houd tolgeld/betaalkaart voor de Pont de Normandie en A13/A29 gereed."
+  ],
+  "nextCheck": "Avondcheck dag voor vertrek op 7 augustus 2026 (voor verplaatsing 8 augustus naar Normandie) - deze huidige run op 25 juli is vroeg/indicatief en moet dan herhaald worden met verse Bison Fute-, weer- en filedata.",
+  "routeAdvice": {
+    "from": "Gouda, Nederland",
+    "to": "Saint-Come-de-Fresne (Normandie), Frankrijk",
+    "advice": "normale route",
+    "status": "ORANJE",
+    "confidence": "middel",
+    "mainRoute": {
+      "roads": "A16 (NL) - grens BE - Antwerpen ring R1 - A12/A1 - Brussel ring R0 - A8 richting Doornik/Rijsel - grens FR - A16(F)/A25 langs Rijsel - richting Abbeville - A29 Pont de Normandie (tol) - A13 richting Caen - D514 naar Bayeux/Arromanches - Saint-Come-de-Fresne",
+      "distanceKm": 650,
+      "driveTimeNoBreaks": "ca. 6u45 netto rijtijd",
+      "familyDriveTimeWithBreaks": "ca. 8u30-9u met pauzes voor gezin van 5 (PHEV + dakkoffer, extra tijd bij grenstol en Pont de Normandie)",
+      "toll": "Ja - Franse tolwegen (Pont de Normandie A29, deel A13); NL en Belgie grotendeels tolvrij op dit traject",
+      "delay": "Verhoogd risico door landelijke Bison Fute ROOD-dag (8 augustus, beide richtingen); mogelijke ochtend-/middagdrukte rond ring Antwerpen/Brussel en richting westkust Frankrijk",
+      "riskPoints": "Ring Antwerpen en Brussel (spits), tolplaza Pont de Normandie, werkzaamheden knooppunt Quetteville (A13/A29, 30 km/u zone)",
+      "recommendedDepartureTime": "06:00-07:00 vanuit Gouda om ochtendspits rond Antwerpen/Brussel voor te zijn en ruim voor de drukste middaguren in Frankrijk aan te komen (check-in pas 15:00)"
+    },
+    "fallbackRoute": {
+      "roads": "A16 (NL) - grens BE - via N49/Zeeuws-Vlaanderen of A11 om Antwerpse ring te vermijden - Gent ring R4 - Kortrijk A19/A17 - grens FR bij Rijsel - A25/A16(F) richting Abbeville - A29 Pont de Normandie (tol) - A13 richting Caen - D514 naar Bayeux/Arromanches - Saint-Come-de-Fresne",
+      "distanceKm": 670,
+      "driveTimeNoBreaks": "ca. 7u00 netto rijtijd",
+      "familyDriveTimeWithBreaks": "ca. 8u45-9u15 met pauzes",
+      "toll": "Vergelijkbare Franse tol als hoofdroute; geen tolbesparing, wel mogelijk stabieler verkeer",
+      "delay": "Vermijdt de zwaarst belaste ringwegen Antwerpen/Brussel; Gent-ring kan in vakantieperiode ook druk zijn maar doorgaans minder dan Brussel",
+      "riskPoints": "Gent ring bij drukte, verder zelfde Pont de Normandie/A13-traject als hoofdroute inclusief Quetteville-werkzaamheden",
+      "recommendedDepartureTime": "Zelfde vroege vertrektijd 06:00-07:00 aanhouden"
+    },
+    "decisionPoint": "Kies de hoofdroute tenzij actuele filedata (ANWB/Google Maps/Waze) vlak voor of tijdens vertrek forse file rond de ring van Antwerpen of Brussel toont; schakel dan onderweg over op de Gent-Kortrijk fallback. Definitieve keuze pas op basis van live verkeersinformatie op de ochtend van 8 augustus."
+  }
+}
